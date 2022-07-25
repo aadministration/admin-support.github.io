@@ -1,0 +1,293 @@
+.bodys {
+    height: 801px;
+    background-color: rgb(204, 204, 204);
+}
+
+.bodys_top {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    height: 701px;
+}
+
+.bodys_bodys {
+    position: relative;
+    width: 90%;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.bodys_ct_tp {
+    position: relative;
+    padding: 30px 0;
+}
+
+.kolza_dplk {
+    position: relative;
+    width: 613px;
+}
+
+.infos {
+    position: relative;
+    width: 100%;
+    height: 139px;
+    background-color: rgb(233, 248, 255);
+    padding: 8px 0;
+}
+
+.infoka {
+    position: relative;
+    width: 100%;
+    margin: 0 0 10px 0;
+    height: 114px;
+}
+
+.flouka {
+    position: relative;
+    float: left;
+    line-height: 62px;
+    height: 55px;
+}
+
+.flouka_rt {
+    position: relative;
+    float: left;
+    height: 55px;
+    line-height: 62px;
+    width: 16px;
+    background-image: url("../img/fli.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.infoka_lft {
+    position: relative;
+    float: left;
+    width: 112px;
+    height: 112px;
+    background-image: url("../img/pogo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.infoka_rgt {
+    position: relative;
+    float: right;
+    width: calc(100% - 112px);
+    height: 112px;
+    padding-left: 10px;
+}
+
+.infos_lft {
+    position: relative;
+    width: 50px;
+    height: 100%;
+    float: left;
+    background-image: url("../img/infok.png");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.infos_right {
+    position: relative;
+    width: calc(100% - 50px);
+    float: right;
+    padding: 11px 0 0 4px;
+}
+
+.kolza_dplk input[type=text] {
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    width: 65%;
+    height: 36px;
+    border-bottom: 1.5px solid #666;
+}
+
+.kolza_dplk input[type=password] {
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    width: 65%;
+    height: 36px;
+    border-bottom: 1.5px solid #666;
+}
+
+.kolza_dplk .error {
+    border-bottom: 1.5px solid red !important;
+}
+
+.kolza_dplk input[type=text]:hover {
+    border-bottom: 2px solid #000;
+}
+
+.kolza_dplk img {
+    margin: 4px 0 0 3px;
+}
+
+.olkaz {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.olkaz_left {
+    position: relative;
+    float: left;
+    height: 40px;
+    line-height: 48px;
+}
+
+.buttos {
+    position: relative;
+    width: 167px;
+    height: 49px;
+    line-height: 49px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    margin: 20px 0 0;
+}
+
+.buttoss {
+    position: relative;
+    width: 167px;
+    height: 49px;
+    line-height: 49px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.resta {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-image: url("../img/rest.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 202px 41px;
+    margin: 10px 0;
+}
+
+.infoka_rgt_top {
+    position: relative;
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    font-weight: bold;
+}
+
+.infoka_rgt_boot {
+    position: relative;
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+}
+
+.botona {
+    position: relative;
+    width: 100%;
+    height: 62px;
+    margin: 20px 0 0;
+}
+
+.dd {
+    position: relative;
+    float: left;
+}
+
+.right_buttos {
+    position: relative;
+    float: left;
+    height: 49px;
+    margin-left: 5px;
+}
+
+.right_buttos_lft {
+    position: relative;
+    float: left;
+    height: 49px;
+    line-height: 49px;
+}
+
+.left_buttos_right {
+    position: relative;
+    float: left;
+    width: 16px;
+    height: 49px;
+    background-image: url("../img/fli.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bsn {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    line-height: 44px;
+}
+
+.bsn-lft {
+    position: relative;
+    float: left;
+    height: 40px;
+    line-height: 44px;
+}
+
+.bsn-rt {
+    position: relative;
+    float: left;
+    width: 16px;
+    height: 40px;
+    background-image: url("../img/fli.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ppppp {
+    position: relative;
+    width: 100%;
+    margin: 18px 0 0;
+}
+
+.pppp-top {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.pppp-bot {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.pppp-top-lft {
+    position: relative;
+    float: left;
+    height: 40px;
+    line-height: 44px;
+}
+
+.pppp-top-rght {
+    position: relative;
+    float: left;
+    height: 40px;
+    width: 16px;
+    background-image: url("../img/fli.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a {
+    color: #666;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #d8741d;
+}

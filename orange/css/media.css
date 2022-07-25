@@ -1,0 +1,36 @@
+@media only screen and (max-width: 768px) {
+    .ck_hd_cont_tag {
+        background-image: url("../img/nav_top_hd_phone.png") !important;
+    }
+}
+
+@media only screen and (max-width: 398px) {
+    .ck_hd_cont_tag {
+        background-size: 100% 110%;
+    }
+}
+
+@media only screen and (max-width: 1124px) {
+    .ck_hd_tag2_cnter .lika {
+        margin: 0 1px 0;
+        padding: 24px 12px;
+    }
+}
+
+@media only screen and (max-width: 988px) {
+    .sturt {
+        background-size: 100% 100%;
+    }
+    .kolza_dplk {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 938px) {
+    .ck_hd_tag2_cnter {
+        display: none;
+    }
+    .ck_hd_tag2_right {
+        display: block;
+    }
+}
